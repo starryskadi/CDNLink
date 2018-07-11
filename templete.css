@@ -1,0 +1,44 @@
+.off-price {
+    font-variant-caps: petite-caps;
+    font-weight: bold;
+    font-size: 2.4vw;
+    color:black;
+}
+.upper-style  {
+  font-variant-caps: petite-caps;
+  font-size: 1.7vw;
+  color:black;
+}
+.vouchercode {
+    font-size: 3.0vw;
+    background:#020c30;
+    border: 2px dotted white;
+    font-weight: bold;
+    color:white;
+    padding: 2.5%;
+}
+.padding-box-cus {
+    padding: 1% 0;
+    background: #e4e2e2;
+    border: 1px solid white;
+}
+.img-shadow {
+  filter: drop-shadow(2px 2px 7px black);
+}
+.voucher-box {
+  margin-top: 45px;
+  padding-right: 5px !important;
+}
+div[class^=col-] {
+  padding: 2px 2px;
+}
+.text-box {
+  margin-top: 26px;
+  padding-left: 7px !important;
+}
+@media (max-width: 768px){
+  .upper-style  {font-size: 3vw;}
+  .text-box {margin-top: 11px;}
+  .voucher-box {margin-top: 36px;}    
+  .vouchercode, .off-price {font-size: 4vw;}
+}
