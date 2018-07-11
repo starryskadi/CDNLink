@@ -1,0 +1,2 @@
+# CDNLink
+Ready Use
